@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background6">
+
+    <Button
+        android:text="play/pause"
+        android:onClick="playMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/button21"
+        android:background="#FFB90F" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/grouplogo"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="Concentration Game"
+        android:id="@+id/textview1"
+        android:textStyle="normal|bold"
+        android:textColor="#CD3333"
+        android:textSize="36sp"
+        android:textAlignment="center" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:text="New Game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/new_game"
+            android:background="#FFB90F"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="High Score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/high_score"
+            android:background="#FFB90F"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="26dp"
+            android:layout_marginEnd="26dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

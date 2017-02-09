@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<resources>
+
+    <string name="app_name">DKNZ</string>
+
+    <string name="mode_text">Choose the difficulty you wish to play</string>
+
+    <!--Buttons for the user to decide the amount of cards they want to play with -->
+
+
+    <string name="new_game_button">NEW GAME</string>
+
+    <string name="end_game_button">END GAME</string>
+
+    <string-array name="spinner_options">
+        <item>Select card #</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+    </string-array>>
+
+
+</resources>
